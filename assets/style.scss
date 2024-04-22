@@ -16,8 +16,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Tibetan:wght@100..900&display=swap');
-
 html {
   font-size: 100%;
   height: 100%;
@@ -25,7 +23,7 @@ html {
 
 body {
   background: #fff;
-  font-family: "PT Serif", serif, 'genryuMin', 'bbTibetan', "Noto Serif Tibetan";
+  font-family: "PT Serif", serif, 'genryuMin', 'bbTibetan';
   color: #404040;
   line-height: 1.7;
   font-weight: 400;
@@ -41,10 +39,9 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "PT Sans", sans-serif, 'genyoGothic', 'bbTibetan', "Noto Serif Tibetan", serif;
+  font-family: "PT Sans", sans-serif, 'genyoGothic', 'bbTibetan';
   color: $darkerGray;
   font-weight: bold;
-
   line-height: 1.7;
   margin: 1em 0 15px;
   padding: 0;

@@ -25,7 +25,7 @@ html {
 
 body {
   background: #fff;
-  font-family: "PT Serif", serif, 'genryuMinR', "Noto Serif Tibetan";
+  font-family: "PT Serif", serif, 'genryuMinR', 'bbTibetan', "Noto Serif Tibetan";
   color: #404040;
   line-height: 1.7;
   font-weight: 400;
@@ -41,7 +41,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "PT Sans", sans-serif, 'genyoGothicR', "Noto Serif Tibetan", serif;
+  font-family: "PT Sans", sans-serif, 'genyoGothicR', 'bbTibetan', "Noto Serif Tibetan", serif;
   color: $darkerGray;
   font-weight: bold;
 

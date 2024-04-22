@@ -6,18 +6,52 @@
 // CN-T FONTS
 
 @font-face {
-  font-family: 'genryuMinR';
+  font-family: 'genryuMin';
   src: url(../fonts/GenRyuMin-R.ttc) format('ttc')
+  font-weight: normal;
 }
 
 @font-face {
-  font-family: 'genyoGothicR';
-  src: url(../fonts/GenYoGothic-R.ttc) format('ttc')
+  font-family: 'genryuMin';
+  src: url(../fonts/GenRyuMin-L.ttc) format('ttc')
+  font-weight: lighter; 
 }
+
+@font-face {
+  font-family: 'genryuMin';
+  src: url(../fonts/GenRyuMin-SB.ttc) format('ttc')
+  font-weight: bolder; 
+}
+
+@font-face {
+  font-family: 'genyoGothic';
+  src: url(../fonts/GenYoGothic-R.ttc) format('ttc')
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'genyoGothic';
+  src: url(../fonts/GenYoGothic-L.ttc) format('ttc')
+  font-weight: lighter;
+}
+
+@font-face {
+  font-family: 'genyoGothic';
+  src: url(../fonts/GenYoGothic-L.ttc) format('ttc')
+  font-weight: bolder;
+}
+
 
 // BO FONTS
 
 @font-face {
   font-family: 'bbTibetan';
-  src: url(../fonts/BabelStoneTibetan) format('ttf')
+  src: url(../fonts/BabelStoneTibetanSlim.ttf) format('ttf')
+  font-weight: lighter;
+}
+
+@font-face {
+  font-family: 'bbTibetan';
+  src: url(../fonts/BabelStoneTibetan.ttf) format('ttf')
+  font-weight: normal;
 }
